@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gummi Smart Legend Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="reg-card">
+        <h2>Gummi Smart Legend</h2>
+        <h3>Registration</h3>
+
+        <form id="regForm">
+            <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" placeholder="Phone Number" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-calendar-days"></i>
+                <input type="date" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-book"></i>
+                <select required>
+                    <option value="" disabled selected>Select Course</option>
+                    <option value="web">Web Development</option>
+                    <option value="cyber">Cyber Security</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+            </div>
+
+            <button type="submit" class="reg-btn">Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
